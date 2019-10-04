@@ -11,5 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissararnaout/product-promo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alissararnaout/product-promo/issues"
+  },
+  "homepage": "https://github.com/alissararnaout/product-promo#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   }
 }
