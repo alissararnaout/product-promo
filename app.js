@@ -13,13 +13,13 @@ app.use(express.static('public'));
 // a forward slash is the home route (same as index.html)
 app.get('/', (req, res) => {
   console.log('at the home route');
-  res.sendFile(path.join(__dirname + '/product/index.html'));
+  res.sendFile(path.join(__dirname + '/views/index.html'));
   // this builds localhost:3000/views/index.html
 })
 
 app.get('/buy', (req, res) => {
   console.log('at the buy route');
-  res.sendFile(path.join(__dirname + '/product/buy.html'));
+  res.sendFile(path.join(__dirname + '/views/buy.html'));
 })
 
 
