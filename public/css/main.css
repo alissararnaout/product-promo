@@ -128,7 +128,7 @@ main {
   
 
   #productDetails {
-      margin-left: 400px;
+      margin-left: 300px;
       margin-top: 100px;
       margin-bottom: 150px;
   }
@@ -156,8 +156,7 @@ main {
 
  /* buy */
  #buyDetails {
-     clear: both;
-     background: red;
+  
      margin-top: 100px;
      margin-bottom: 150px;
  }
@@ -169,17 +168,16 @@ main {
     border-radius: 50%;
     border: solid 1px #2B3123;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 30px;
   }
 
   .site {
       margin-top: 200px;
+      margin-left: 30px;
   }
 
 
- 
- 
- 
+
 
  
   /* footer */
